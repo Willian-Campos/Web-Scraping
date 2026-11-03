@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+scratch/
+# dados coletados ficam fora do git (podem ser grandes e mudam sempre)
+**/data/*.db
+**/data/*.csv
+**/data/raw/
+.env
